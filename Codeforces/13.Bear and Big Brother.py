@@ -1,9 +1,8 @@
-L,B = list(map(int,input().split()))
+L,B = list(map(int,input().split()))# input --> 4 7 --> [4,7]
 
 sum=0
 while B>=L:
-    L=L*3
-    B=B*2
+    L,B=L*3,B*2
     sum+=1
 
 print(sum)
