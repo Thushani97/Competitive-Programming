@@ -6,8 +6,9 @@ for i in range(int(input())):
 
     for i in lst:
         n=n-(max_-i)
-    print(n)
-    if n>= 0 & n%3 ==0:
+
+
+    if n>=0 and n%3 ==0:
         print("YES")
     else:
         print("NO")
