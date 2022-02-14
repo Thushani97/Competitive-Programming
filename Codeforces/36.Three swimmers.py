@@ -1,7 +1,10 @@
 for i in range(int(input())):
     lst=list(map(int,input().split()))
     p=lst.pop(0)
-    print(lst)
     if p in lst:
         print (0)
-  
+    elif p> max(lst):
+        j=2
+        while True:
+                lst=[i*j for i in lst]
+                break
