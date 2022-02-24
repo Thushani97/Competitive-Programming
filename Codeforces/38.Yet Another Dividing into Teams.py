@@ -4,7 +4,7 @@ for i in range(int(input())):
     sum=0
     for i in lst:
         if i+1 in lst:
-            print("ans",2)
+            print(2)
             break
     else:
-        print("ans",1)
+        print(1)
