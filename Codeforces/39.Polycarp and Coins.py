@@ -14,3 +14,5 @@ for i in range(int(input())):
         print(a,d)
     elif   e+a==n:
         print(e,a)
+    elif c+a*2==n:
+        print(c,a)
