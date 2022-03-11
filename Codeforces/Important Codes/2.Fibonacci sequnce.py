@@ -7,6 +7,6 @@ def fibonacci_sequence(n):
             sum=a+b
             a=b
             b=sum
-        return b
+            print(sum)
 
-print(fibonacci_sequence(4))
+(fibonacci_sequence(10))
