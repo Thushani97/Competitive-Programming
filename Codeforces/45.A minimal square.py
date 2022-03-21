@@ -3,7 +3,7 @@ for i in range(int(input())):
     area = 2*a*b
     root=area**0.5
     if root== float(a) or root==float(b):
-        print(int(root))
+        print(int(root)*int(root))
     else:
-        value=int(root)
+        value=int(root)+1
         print(value* value)
