@@ -5,25 +5,28 @@ import re
 import sys
 
 
-def sockMerchant(n, ar):
+# def sockMerchant(n, ar):
     # Write your code here
-   
-    dic={}
+n = int(input().strip())
 
-    for i in ar:
-        dic[i]= (ar.count(i))//2
-    
-    return(sum(dic.values()))
-    
-if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+ar = list(map(int, input().rstrip().split()))
 
-    n = int(input().strip())
+dic={}
 
-    ar = list(map(int, input().rstrip().split()))
+for i in ar:
+    dic[i]= (ar.count(i))//2 #this automatically create a dictionary
+print (dic)
+print(sum(dic.values()))
 
-    result = sockMerchant(n, ar)
+# if __name__ == '__main__':
+#     fptr = open(os.environ['OUTPUT_PATH'], 'w')
 
-    fptr.write(str(result) + '\n')
+#     n = int(input().strip())
 
-    fptr.close()
+#     ar = list(map(int, input().rstrip().split()))
+
+#     result = sockMerchant(n, ar)
+
+#     fptr.write(str(result) + '\n')
+
+#     fptr.close()
