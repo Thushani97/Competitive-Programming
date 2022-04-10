@@ -7,4 +7,4 @@ for i in range(inputLines):
         if number%10 != 0 and temp%(number%10)==0:
             total += 1
         number /= 10
-    print total
+    print (total)
